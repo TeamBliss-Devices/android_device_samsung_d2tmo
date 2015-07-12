@@ -29,6 +29,9 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2tmo,d2lte
 
+# LZMA Compression
+WITH_LZMA_OTA := true
+
 # BlissPop Config Flags
 TARGET_TC_ROM := 4.8-linaro
 TARGET_TC_KERNEL := 4.8-linaro
