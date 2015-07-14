@@ -1,3 +1,6 @@
+# Bliss Viper Audio Mod
+BLISS_AUDIO_MOD := viper
+
 $(call inherit-product, device/samsung/d2tmo/full_d2tmo.mk)
 
 # Enhanced NFC
@@ -5,9 +8,6 @@ $(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
-
-#Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2uc \
