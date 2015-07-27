@@ -65,6 +65,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13140754432
 TARGET_RECOVERY_FSTAB := device/samsung/d2-common/rootdir/etc/fstab.qcom
 TARGET_USERIMAGES_USE_F2FS := true
 
+#Hardware
+BOARD_HARDWARE_CLASS += device/samsung/d2tmo/cmhw
+
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/d2-common/ril
 
