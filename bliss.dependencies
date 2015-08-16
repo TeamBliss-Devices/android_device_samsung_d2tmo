@@ -18,10 +18,10 @@
     "revision": "cm-12.1"
   },
   {
-    "remote": "cm",
-    "repository": "android_kernel_samsung_d2",
+    "remote": "github",
+    "repository": "LiquidSmooth-Devices/Deathly_Kernel_D2",
     "target_path": "kernel/samsung/d2",
-    "revision": "cm-12.1"
+    "revision": "5.1"
   },
   {
     "remote": "cm",
